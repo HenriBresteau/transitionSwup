@@ -11,4 +11,10 @@ html.is-animating .transition-fade {
     opacity: 1;
     transform: translatex(100%);
   }
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translatex(0);
+}
+
 /*# sourceMappingURL=style.css.map */
