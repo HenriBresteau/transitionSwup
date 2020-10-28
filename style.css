@@ -30,4 +30,16 @@ html.is-leaving .transition-p {
     transform: translatey(100px);
 }
 
+/* ANIMATION IMG */
+.transition-img{
+    transition: 1s;
+    transform: translatex(0);
+    /* transform-origin: left; */
+}
+html.is-animating .transition-img{
+    transform: translatex(-600px);
+}
+html.is-leaving .transition-img {
+    transform: translatex(100%);
+}
 /*# sourceMappingURL=style.css.map */
