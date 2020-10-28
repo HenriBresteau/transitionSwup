@@ -1,3 +1,14 @@
-
-
+body{
+    overflow: hidden;
+}
+.transition-fade {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateX(0);
+    transform-origin: left;
+}
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translatex(100%);
+  }
 /*# sourceMappingURL=style.css.map */
