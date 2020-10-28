@@ -17,4 +17,17 @@ html.is-leaving .transition-fade {
     transform: translatex(0);
 }
 
+/* ANIMATION DES P */
+.transition-p {
+    transition: 0.5s;
+    transform: translateY(0);
+}
+
+html.is-animating .transition-p{
+    transform: translateY(100px);
+}
+html.is-leaving .transition-p {
+    transform: translatey(100px);
+}
+
 /*# sourceMappingURL=style.css.map */
